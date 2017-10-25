@@ -34,6 +34,7 @@ function displayYouTubeSearchData(data) {
 	const results = data.items.map((item, index) => 
 		renderResults(item));
 	$('#query-results').html(results);
+	$('#output').prop('hidden', false);
 }
 
 function watchSubmit() {
