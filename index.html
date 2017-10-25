@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ThinkfulTube</title>
+	<meta charset="utf-8" name="description" content="This is an application for searching YouTube videos">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<main role="main">
+
+		<header role="banner">
+			<h1>
+				Search videos by name on YouTube
+			</h1>
+		</header>
+
+		<form action="#" id="search-form">
+			<fieldset>
+				<label for="query">Enter a search term:</label>
+				<input type="text" name="input-field" id="query">
+				<button type="submit">Search</button>
+			</fieldset>
+		</form>
+
+		<div id='query-results-count'></div>
+
+		<div id='query-results'></div>
+
+	</main>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
